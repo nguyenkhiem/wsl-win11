@@ -21,3 +21,11 @@ The operation completed successfully.
 PS C:\Users\khiem>
 ```
 
+# install composer
+
+
+```console
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
+sudo mv /usr/local/bin/composer.phar /usr/bin/composer
+
+```
